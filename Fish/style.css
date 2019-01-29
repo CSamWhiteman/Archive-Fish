@@ -1,0 +1,52 @@
+
+
+h3.sci {
+  font-style: italic;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 170px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  font-family: serif;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.main {
+  margin-left: 170px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.fish {
+  border: 1px black solid;
+  margin-top: 2em;
+}
+
+.fish img {
+  max-width: 500px;
+}
