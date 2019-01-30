@@ -34,10 +34,14 @@ font-size: 25px;
   display: block;
 }
 
+.main h1 {
+  width: 1000px;
+}
+
 .main {
   margin-left: 170px; /* Same as the width of the sidebar */
   padding: 0px 20px;
-  width: 550px;
+  width: 500px;
 }
 
 table, th, td {
@@ -55,6 +59,7 @@ table {
 .fish {
   border: 1px black solid;
   margin-top: 2em;
+  background-color: #74c5f7;
 }
 
 .fish img {
